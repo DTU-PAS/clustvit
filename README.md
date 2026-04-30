@@ -180,7 +180,7 @@ python tools/count_tokens.py <config> <checkpoint>
 python tools/clust_analysis.py <config> <checkpoint>
 ```
 
-Benchmarks for the paper were measured on an Intel i9-14900KF CPU, 96 GB RAM, and an NVIDIA RTX 3090 GPU (24 GB VRAM). Training was performed on a single NVIDIA H100 GPU (80 GB VRAM).
+Benchmarks for the paper were measured on an Intel i9-14900KF CPU, 96 GB RAM, and an NVIDIA RTX 4090 GPU (24 GB VRAM). Training was performed on a single NVIDIA H100 GPU (80 GB VRAM).
 
 ---
 

@@ -305,7 +305,7 @@ If you use ClustViT in your research, please cite:
 
 This work was supported by Innovation Fund Denmark through the project *Safety and Autonomy for Vehicles in Agriculture (SAVA)*, grant 2105-00013A.
 
-The codebase builds upon [mmsegmentation](https://github.com/open-mmlab/mmsegmentation). We thank the authors of [CTS](https://github.com/tue-mps/cts-segmentation), [Segmenter](https://github.com/rstrudel/segmenter), and [UPerNet](https://github.com/CSAILVision/unifiedparsing) for their publicly available implementations.
+The codebase builds upon [mmsegmentation](https://github.com/open-mmlab/mmsegmentation). We thank the authors of [CTS](https://github.com/tue-mps/cts-segmenter), [Segmenter](https://github.com/rstrudel/segmenter), and [UPerNet](https://github.com/CSAILVision/unifiedparsing) for their publicly available implementations.
 
 ---
 

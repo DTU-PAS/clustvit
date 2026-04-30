@@ -1,0 +1,23 @@
+nvitop
+torch==2.4.0
+torchvision
+datasets
+albumentations
+einops
+scipy
+omegaconf
+prettytable
+matplotlib
+plotly
+nbformat
+tabulate
+torchinfo
+lightning
+torch-tb-profiler
+mmsegmentation>=1.0.0
+mmengine
+mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.4/index.html
+ftfy
+regex
+timm
+scikit-image

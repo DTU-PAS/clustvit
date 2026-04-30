@@ -183,7 +183,6 @@ commands.txt
 logs
 checkpoints
 *.ckpt
-*.png
 work_dirs
 *.db
 wandb

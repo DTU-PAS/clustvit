@@ -14,6 +14,10 @@ Department of Electrical and Photonics Engineering, DTU – Technical University
 
 ## Overview
 
+<p align="center">
+  <img src="assets/overview.png" width="720" alt="ClustViT architecture overview"/>
+</p>
+
 Vision Transformers (ViTs) achieve strong performance in semantic segmentation but suffer from quadratic attention complexity, limiting deployment on real-world robotic systems. **ClustViT** addresses this by introducing a semantically guided token merging strategy tailored specifically to dense prediction.
 
 At its core, ClustViT integrates two novel components into the ViT backbone:
@@ -22,10 +26,6 @@ At its core, ClustViT integrates two novel components into the ViT backbone:
 - **Regenerator module** — reconstructs full-resolution token representations from the compressed sequence before passing them to off-the-shelf segmentation heads (Segmenter, UPerNet), preserving compatibility with any standard decoder.
 
 The approach achieves up to **2.18× fewer GFLOPs** and **1.64× faster inference** across three datasets (ADE20K, SUIM, RumexWeeds), with only modest accuracy trade-offs. Gains are most pronounced on robotic datasets dominated by background regions (agricultural, underwater), where semantic uniformity enables aggressive token compression.
-
-<p align="center">
-  <img src="assets/overview.png" width="720" alt="ClustViT architecture overview"/>
-</p>
 
 ---
 

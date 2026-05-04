@@ -186,16 +186,23 @@ Benchmarks for the paper were measured on an Intel i9-14900KF CPU, 96 GB RAM, an
 
 ## Pretrained Weights
 
-Pretrained ImageNet weights (ViT, 384×384, patch size 16) are loaded automatically from mmsegmentation when training from scratch. Fine-tuned ClustViT checkpoints will be released upon publication.
+Pretrained ImageNet weights (ViT, 384×384, patch size 16) are loaded automatically from mmsegmentation when training from scratch. Fine-tuned ClustViT, CTS and ViT checkpoints with Segmenter head are provided for reproducibility:
 
 | Config | Dataset | Head | mIoU | Download | Config |
 |--------|---------|------|------|----------| ------- | 
-| ClustViT-b k3,ip3 | ADE20K | Segmenter | 46.10 | *coming soon* |  *coming soon* |
-| ClustViT-b k3,ip3 | SUIM | Segmenter | 61.95 | *coming soon* | *coming soon* |
-| ClustViT-b k3,ip3 | RumexWeeds | Segmenter | 49.82 | *coming soon* | *coming soon* |
-| ClustViT-b k3,ip3 | ADE20K | UPerNet | 44.70 | *coming soon* | *coming soon* |
-| ClustViT-b k3,ip3 | SUIM | UPerNet | 63.77 | *coming soon* | *coming soon* |
-| ClustViT-b k3,ip3 | RumexWeeds | UPerNet | 50.55 | *coming soon* | *coming soon* |
+| ClustViT-b k3,ip3 | ADE20K | Segmenter | 46.10 | [model](https://data.dtu.dk/ndownloader/files/64205592) |  [config](https://data.dtu.dk/ndownloader/files/64205505) |
+| ClustViT-b k3,ip4 | ADE20K | Segmenter | 46.19 | [model](https://data.dtu.dk/ndownloader/files/64205595) |  [config](https://data.dtu.dk/ndownloader/files/64205511) |
+| CTS | ADE20K | Segmenter | 45.96 | [model](https://data.dtu.dk/ndownloader/files/64205607)| [config](https://data.dtu.dk/ndownloader/files/64205529) |
+| ViT-b | ADE20K | Segmenter | 49.22 | [model](https://data.dtu.dk/ndownloader/files/64205613)| [config](https://data.dtu.dk/ndownloader/files/64205550) |
+| ClustViT-b k3,ip3 | SUIM | Segmenter | 61.95 | [model](https://data.dtu.dk/ndownloader/files/64205589)| [config](https://data.dtu.dk/ndownloader/files/64205496) |
+| ClustViT-b k4,ip3 | SUIM | Segmenter | 63.26 | [model](https://data.dtu.dk/ndownloader/files/64205583)| [config](https://data.dtu.dk/ndownloader/files/64205490) |
+| CTS | SUIM | Segmenter | 66.33 | [model](https://data.dtu.dk/ndownloader/files/64205601)| [config](https://data.dtu.dk/ndownloader/files/64205523) |
+| ViT-b | SUIM | Segmenter | 69.91 | [model](https://data.dtu.dk/ndownloader/files/64205610)| [config](https://data.dtu.dk/ndownloader/files/64205544) |
+| ClustViT-b k3,ip3 | RumexWeeds | Segmenter | 49.82 | [model](https://data.dtu.dk/ndownloader/files/64205577)| [config](https://data.dtu.dk/ndownloader/files/64205481) |
+| ClustViT-b k3,ip4 | RumexWeeds | Segmenter | 51.53 | [model](https://data.dtu.dk/ndownloader/files/64205580)| [config](https://data.dtu.dk/ndownloader/files/64205487) |
+| CTS | RumexWeeds | Segmenter | 49.13 | [model](https://data.dtu.dk/ndownloader/files/64205598)| [config](https://data.dtu.dk/ndownloader/files/64205517) |
+| ViT-b | RumexWeeds | Segmenter | 51.56 | [model](https://data.dtu.dk/ndownloader/files/64205604)| [config](https://data.dtu.dk/ndownloader/files/64205538) |
+
 
 ---
 
